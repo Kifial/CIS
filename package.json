@@ -1,0 +1,19 @@
+{
+  "name": "mongodb_lan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restoreTwitter": "node twitter-restore.js",
+    "backupTwitter": "node twitter-backup.js",
+    "initMy": "node my-db-init.js",
+    "backupMy": "node my-db-backup.js",
+    "restoreMy": "node my-db-restore.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  }
+}
